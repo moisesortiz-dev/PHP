@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(13, 13, 13); /* Cambia el color de fondo a negro */
+    border-top: 1px solid #000; /* Línea horizontal negra */
+    padding: 10px; /* Añade un espacio interno para mejorar la apariencia */
+    align-items: center;
+   
+}
+
+.menu1, .menu2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu1 li, .menu2 li {
+    margin-right: 10px;
+    background-color: #000;
+    color: #fff; /* Cambia el color del texto a blanco */
+}
+
+.menu2 {
+    margin-left: auto;
+}
+
+.cerrar-session button {
+    background-color: red;
+    color: white;
+}
+
+.menu-link {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: inherit; /* Hereda el color del texto de su contenedor */
+    cursor: pointer;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.menu-link:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el ratón sobre el enlace */
+    color: #fff; /* Cambia el color del texto al pasar el ratón sobre el enlace */
+}
+
+main {
+    padding: 20px;
+}
+
+.productos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos-columna {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.titulo-productos {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.precio {
+    color: #007bff;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
